@@ -11,6 +11,11 @@ npm run dev        # http://localhost:5175
 
 Build estático: `npm run build` (gera `dist/`, pode ser publicado em qualquer hospedagem estática — usa rotas com `#`, sem configuração de servidor).
 
+## Deploy no Render
+
+- **Static Site:** Build Command `npm install && npm run build` · Publish Directory `dist`
+- **Web Service:** Build Command `npm install && npm run build` · Start Command `npm start` (serve o `dist/` na porta `PORT`)
+
 ## Telas
 
 - **Home** — saudação, notificações, carrossel de banners, seletor de endereço e atalhos
